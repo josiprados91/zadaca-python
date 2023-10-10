@@ -1,0 +1,14 @@
+print("unesite dva broja:")
+x = int(input("Unesite prvi broj -> "))
+y = int(input("Unesite drugi broj -> "))
+operacija = input("odaberite matematičku operaciju (+, -, *, /): ")
+if operacija == "+":
+    print(x + y)
+elif operacija == "-":
+    print(x - y)
+elif operacija == "*":
+    print(x * y)
+elif operacija == "/":
+    print(x / y)
+else:
+    print("Niste odabrali dobru matematičku operaciju")
