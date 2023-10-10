@@ -1,0 +1,11 @@
+mood = input("jesi li danas sretan, nervozan, uzbuđen ili tužan ->")
+if mood == "sretan":
+    print("Drago mi je da si sretan!")
+elif mood == "nervozan":
+    print("Dubogo udahni 3 puta")
+elif mood == "uzbuđen":
+    print("Zašto si uzbuđen?")
+elif mood == "tužan":
+    print("Razveseli se")
+else:
+    print("Niste unijeli dobar odgovor! pokušajte ponovno")
