@@ -1,0 +1,6 @@
+tajni_broj = 8
+broj = int(input("pogodi broj od 1 do 10 "))
+if broj == tajni_broj:
+    print("Bravo, pogodili ste da je tajni broj " + str(tajni_broj))
+else:
+    print("Žao nam je, tajni broj nije " + str(broj))
